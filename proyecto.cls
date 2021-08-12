@@ -171,11 +171,11 @@
 	\vspace{4cm}
 	
 	\flushleft
-	{\normalsize Autor:\\}
+	{\normalsize Alumno:\\}
 	{\Large \authorname \\}
 	\vspace{1cm}
 	
-	{\normalsize Director:\\}
+	{\normalsize Docente:\\}
 	{\Large \supname \hspace{1px} (\pertesupname) \\}
 	\vspace{2cm}
 		
@@ -187,7 +187,7 @@
 	
     \vfill
     \centering
-    \textit{Esta planificación fue realizada en el curso de Gestión de proyectos\\ entre el \fechaInicioName \hspace{1px} y el  \fechaFinalPlanName.}
+    \textit{Esta planificación fue realizada en el curso de Proyecto y Diseño Electrónico\\ entre el \fechaInicioName \hspace{1px} y el  \fechaFinalPlanName.}
 		
 	\pagebreak
   }
