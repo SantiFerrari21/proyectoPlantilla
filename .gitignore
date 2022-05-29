@@ -1,5 +1,5 @@
-proyecto.aux
-proyecto.log
-proyecto.out
-proyecto.synctex.gz
-proyecto.toc
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.toc
