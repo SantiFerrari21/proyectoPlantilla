@@ -1,22 +1,22 @@
-\select@language {spanish}
-\contentsline {section}{\numberline {1}Registros de cambios}{3}{section.1}
-\contentsline {section}{\numberline {2}Acta de constituci\IeC {\'o}n del proyecto}{4}{section.2}
-\contentsline {section}{\numberline {3}Descripci\IeC {\'o}n t\IeC {\'e}cnica-conceptual del proyecto a realizar}{4}{section.3}
-\contentsline {section}{\numberline {4}Identificaci\IeC {\'o}n y an\IeC {\'a}lisis de los interesados}{4}{section.4}
-\contentsline {section}{\numberline {5}1. Prop\IeC {\'o}sito del proyecto}{5}{section.5}
-\contentsline {section}{\numberline {6}2. Alcance del proyecto}{5}{section.6}
-\contentsline {section}{\numberline {7}3. Supuestos del proyecto}{5}{section.7}
-\contentsline {section}{\numberline {8}4. Requerimientos}{5}{section.8}
-\contentsline {section}{\numberline {9}Historias de usuarios (\textit {Product backlog})}{6}{section.9}
-\contentsline {section}{\numberline {10}5. Entregables principales del proyecto}{8}{section.10}
-\contentsline {section}{\numberline {11}6. Desglose del trabajo en tareas}{9}{section.11}
-\contentsline {section}{\numberline {12}9. Matriz de uso de recursos de materiales}{10}{section.12}
-\contentsline {section}{\numberline {13}10. Presupuesto detallado del proyecto}{13}{section.13}
-\contentsline {section}{\numberline {14}11. Matriz de asignaci\IeC {\'o}n de responsabilidades}{13}{section.14}
-\contentsline {section}{\numberline {15}12. Gesti\IeC {\'o}n de riesgos}{15}{section.15}
-\contentsline {section}{\numberline {16}13. Gesti\IeC {\'o}n de la calidad}{17}{section.16}
-\contentsline {section}{\numberline {17}14. Comunicaci\IeC {\'o}n del proyecto}{21}{section.17}
-\contentsline {section}{\numberline {18}15. Gesti\IeC {\'o}n de compras}{21}{section.18}
-\contentsline {section}{\numberline {19}16. Seguimiento y control}{22}{section.19}
-\contentsline {section}{\numberline {20}17. Procesos de cierre}{24}{section.20}
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Registros de cambios}{3}{section.1}%
+\contentsline {section}{\numberline {2}Acta de constitución del proyecto}{4}{section.2}%
+\contentsline {section}{\numberline {3}Descripción técnica-conceptual del proyecto a realizar}{4}{section.3}%
+\contentsline {section}{\numberline {4}Identificación y análisis de los interesados}{4}{section.4}%
+\contentsline {section}{\numberline {5}1. Propósito del proyecto}{5}{section.5}%
+\contentsline {section}{\numberline {6}2. Alcance del proyecto}{5}{section.6}%
+\contentsline {section}{\numberline {7}3. Supuestos del proyecto}{5}{section.7}%
+\contentsline {section}{\numberline {8}4. Requerimientos}{5}{section.8}%
+\contentsline {section}{\numberline {9}Historias de usuarios (\textit {Product backlog})}{6}{section.9}%
+\contentsline {section}{\numberline {10}5. Entregables principales del proyecto}{8}{section.10}%
+\contentsline {section}{\numberline {11}6. Desglose del trabajo en tareas}{9}{section.11}%
+\contentsline {section}{\numberline {12}7. Matriz de uso de recursos de materiales}{10}{section.12}%
+\contentsline {section}{\numberline {13}8. Presupuesto detallado del proyecto}{13}{section.13}%
+\contentsline {section}{\numberline {14}9. Matriz de asignación de responsabilidades}{13}{section.14}%
+\contentsline {section}{\numberline {15}10. Gestión de riesgos}{15}{section.15}%
+\contentsline {section}{\numberline {16}11. Gestión de la calidad}{17}{section.16}%
+\contentsline {section}{\numberline {17}12. Comunicación del proyecto}{21}{section.17}%
+\contentsline {section}{\numberline {18}13. Gestión de compras}{21}{section.18}%
+\contentsline {section}{\numberline {19}14. Seguimiento y control}{22}{section.19}%
+\contentsline {section}{\numberline {20}15. Procesos de cierre}{24}{section.20}%
 \contentsfinish 
