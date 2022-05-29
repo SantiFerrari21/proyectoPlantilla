@@ -1,0 +1,93 @@
+\section{11. Matriz de asignación de responsabilidades}
+\label{sec:responsabilidades}
+%\begin{consigna}{red}
+%Establecer la matriz de asignación de responsabilidades y el manejo de la autoridad completando la siguiente tabla:
+En el cuadro \ref{tab:resp} se muestra la matriz de asignación de responsabilidades y el manejo de la autoridad.
+\begin{table}[htpb]
+
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+\cellcolor[HTML]{C0C0C0} &
+  \cellcolor[HTML]{C0C0C0} &
+  \multicolumn{4}{c|}{\cellcolor[HTML]{C0C0C0}Listar todos los nombres y roles del proyecto} \\ \cline{3-6} 
+\rowcolor[HTML]{C0C0C0} 
+\cellcolor[HTML]{C0C0C0} &
+  \cellcolor[HTML]{C0C0C0} &
+  Responsable &
+  Director &
+  Impulsor &
+  Cliente \\ \cline{3-6} 
+\rowcolor[HTML]{C0C0C0} 
+\multirow{-3}{*}{\cellcolor[HTML]{C0C0C0}\begin{tabular}[c]{@{}c@{}}Código\\ WBS\end{tabular}} &
+  \multirow{-3}{*}{\cellcolor[HTML]{C0C0C0}Nombre de la tarea} &
+  \authorname &
+  \supname &
+  Roberto Collelo &
+  \clientename \\ \hline
+ %{\rowcolor[HTML]{C0C0C0}1\multicolumn{5}{c|} Planificación general } \\ \hline
+ 1.1&Definición de alcances & P & A &  & A \\ \hline
+ 1.2&Selección de efectores &  S & I &  & A  \\ \hline
+ 1.3&Selección de usuarios  &  S & I &  & A\\ \hline
+ 1.4&Charlas con usuarios  & P  & I &  & I\\ \hline
+ 1.5&Estudio de dashboards & P & I &  & \\ \hline
+ 1.6&Escritura del plan de trabajo & P & A  &  & I \\ \hline
+ 2.1&Estudio de sensores  & P &  & C  & \\ \hline
+ 2.2&Estudio y simulación filtro  & P  & C &  &\\ \hline 
+ 2.3&Pruebas sensor filtro  &  P & A &  & \\ \hline
+ 2.4&Investigación microcontroladores  & P  & I & C &\\ \hline
+ 2.5&Investigación bibliotecas  & P  & I & C &\\ \hline
+ 2.6&Desarrollo PCB  & P  & I & C &\\ \hline
+ 2.7&Montaje PCB  & P  & A &  & I\\ \hline
+ 3.1&Estudio bibliotecas WiFi  & P & I & C &\\ \hline
+ 3.2&Gestión de certificados TLS  & P &  &  &\\ \hline
+ 3.3&Desarrollo comunicación  & P & I &  &\\ \hline
+ 3.4&Prueba comunicación  & P & A &  & I\\ \hline
+ 3.5&Procesamiento variable  & P  & I & C &\\ \hline
+ 3.6&Desarrollo página configuración & P  & I & C &\\ \hline
+ 3.7&Prueba del conjunto  & P & A &  & A\\ \hline
+ 3.8&Depuración de errores  & P & A &  &\\ \hline
+ 4.1&Instalación SO servidor  & P & I &  &\\ \hline
+ 4.2&Gestión de usuarios y permisos & P & I &  &\\ \hline
+ 5.1&Instalación dashboard  & P & I &  &\\ \hline 
+ 5.2&Aprendizaje uso dashboard  & P & I &  &\\ \hline
+ 5.3&Gestión usuarios dashboard  & P & I &  &\\ \hline
+ 5.4&Creación de paneles  & P & C & C & C\\ \hline
+ 5.5&Prueba del conjunto  & P & A &  & A\\ \hline
+ 6.1&Creación canales Telegram  & P & I &  &\\ \hline
+ 6.2&Instalación app Telegram & S & I &  &  \\ \hline
+ 6.3&Creación reglas de alarmas & P & I &  &\\ \hline
+ 6.4&Creación reglas de estado & P & I &  &\\ \hline
+ 6.5&Prueba alarma temperatura & P & A &  & I\\ \hline
+ 6.6&Prueba alarma estado & P & A &  & I \\ \hline
+ 7.1&Verificación de requerimientos & P & A &  & A\\ \hline
+ 8.1&Escritura de manuales & P & A & C & I\\ \hline
+ 8.2&Escritura de memoria final & P & A &  & I\\ \hline
+ 8.3&Elaboración de la presentación & P & A &  & I\\ \hline
+
+\end{tabular}%
+}
+\vspace{.5cm}
+\caption{\textit{Matriz de asignación de responsabilidades}}
+\label{tab:resp}
+\end{table}
+
+{\footnotesize
+Referencias:
+\begin{itemize}
+	\item P = Responsabilidad Primaria
+	\item S = Responsabilidad Secundaria
+	\item A = Aprobación
+	\item I = Informado
+	\item C = Consultado
+\end{itemize}
+} %footnotesize
+
+%Una de las columnas debe ser para el Director, ya que se supone que participará en el proyecto.
+%A su vez se debe cuidar que no queden muchas tareas seguidas sin ``A'' o ``I''.
+
+%Importante: es redundante poner ``I/A'' o ``I/C'', porque para aprobarlo o responder consultas primero la persona debe ser informada.
+
+%\end{consigna}

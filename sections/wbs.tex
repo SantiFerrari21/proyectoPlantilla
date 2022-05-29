@@ -1,0 +1,75 @@
+\section{6. Desglose del trabajo en tareas}
+\label{sec:wbs}
+
+
+\begin{enumerate}
+\item Planificación general. (46 hs)
+	\begin{enumerate}
+	\item Definiciones de alcances, requerimientos y presupuestos. (9 hs).
+	\item Selección de efectores donde colocar los prototipos. (3 hs).
+	\item Selección de usuarios que harán las pruebas del prototipo. (3 hs).
+	\item Charlas previas con los usuarios seleccionados para explicar el por qué de la implementación y así facilitar su adopción. (6 hs)
+	\item Estudio y selección de las dashboards disponibles. (10 hs).
+	\item Escritura del plan de trabajo final. (15 hs).
+	\end{enumerate}
+\item Planificación y desarrollo del circuito electrónico y PCB del sensor. (69 hs).
+	\begin{enumerate}
+	\item Estudio y selección de sensores de temperatura. (2 hs).
+	\item Estudio, cálculo y simulación del filtro activo para el sensor de temperatura. (6 hs).
+	\item Desarrollo y pruebas del circuito sensor-filtro activo. (15 hs).
+    \item Investigación de los microcontroladores aptos para el proyecto. (4 hs).	
+	\item Investigación de las bibliotecas disponibles para el microcontrolador seleccionado. (4 hs).
+	\item Desarrollo de la placa PCB del sensor. (30 hs).
+	\item Montaje de los componentes en 4 placas PCB. (8 hs).
+	\end{enumerate}
+\item Planificación y desarrollo del firmware del sensor 235.  (hs).
+	\begin{enumerate}
+	\item Estudio del funcionamiento de las bibliotecas para conectividad WiFI del microcontrolador. (15 hs).
+	\item Estudio y elaboración de los certificados TLS.  (10 hs).
+	\item Desarrollo de las funciones de comunicación utilizando protocolo de seguridad. (40 hs).
+	\item Pruebas y depuración de errores en la conexión y transporte del dato al servidor central. (40 hs).
+	\item Desarrollo de las funciones de procesamiento de la variable medida. (15 hs).
+	\item Desarrollo de la página web de configuración. (35 hs).
+	\item Prueba del conjunto. (40 hs).
+	\item Depuración de errores. (40 hs).
+	\end{enumerate}
+\item Instalación y configuración del sistema operativo del servidor central. (16 hs).
+	\begin{enumerate}
+	\item Armado de máquina virtual en ESXi e instalación del sistema operativo Linux/Debian 8.0.  (8 hs).
+	\item Instalación y configuración de usuarios, permisos y servicios escenciales.  (8 hs).
+	\end{enumerate}	
+	
+\item Instalación y configuración de la dashboard en el servidor central.  (123 hs).
+	\begin{enumerate}
+	\item Instalación de la dashboard y su base de datos asociada.(8 hs).
+	\item Aprendizaje del uso de la dashboard.(25 hs).
+	\item Creación y configuración de permisos de los usuarios a la dashboard. (10 hs).
+	\item Creación de los paneles para usuarios administradores, jefes y operadores. (40 hs).
+	\item Prueba y depuración de errores del conjunto. (40 hs).
+	\end{enumerate}		
+	
+\item Gestión de las notificaciones. (84 hs).
+	\begin{enumerate}
+	\item Creación de canales en Telegram. (2 hs).
+	\item Instalación de app Telegram en usuarios seleccionados para prueba. (2 hs).
+	\item Creación de la cadena de reglas en dashboard para el envío de alarmas. (20 hs).
+	\item Creación de la cadena de reglas en dashboard para mostrar el estado del dispositivo. (20 hs).
+	\item Pruebas de alarmas de baja y alta temperatura. (20 hs).
+	\item Pruebas de alarmas de offline y online de los dispositivos. (20 hs).
+	\end{enumerate}		
+
+\item Verificación de todas las funcionalidades. (30 hs).
+	\begin{enumerate}
+	\item Verificación del cumplimiento de los requerimientos.  (30 hs).
+	\end{enumerate}		
+
+\item Cierre.  (76 hs)
+	\begin{enumerate}
+	\item Escritura de la documentación para usuarios. (16 hs).
+	\item Escritura de la memoria final. (40 hs).
+	\item Elaboración de la presentación. (20 hs).
+	\end{enumerate}
+	
+\end{enumerate}
+
+Cantidad total de horas: 663 hs

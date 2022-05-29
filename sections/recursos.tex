@@ -1,0 +1,85 @@
+\section{9. Matriz de uso de recursos de materiales}
+\label{sec:recursos}
+En la tabla \ref{recursos1}, se visualiza la utilización de los recursos. Las cantidades están expresadas en horas.
+
+Descripción de los recursos necesarios.
+
+PC desktop: será una computadora de escritorio con sistema operativo Ubuntu 20.04 con las utilidades de oficina instaladas.
+\begin{itemize}
+\item Texmaker
+\item LibreOffice.
+\item Chrome con extensión Gantter.
+\item Git.
+\end{itemize}
+
+Laboratorio: estará compuesto por herramientas e instrumental para desarrollo y armado de placas electrónicas.
+\begin{itemize}
+\item Osciloscopio.
+\item Estación de soldadura/desoldadura.
+\item Generador de ondas arbitrarias.
+\item Fuente de alimentación.
+\item Multímetro de banco.
+\item PC de desarrollo con las utilidades requeridas, Visual Studio Code, Matlab, Git.
+\item Módulos nodeMCU con microcontroladores ESP8266.
+\item Red WiFi con permisos de administración.
+\end{itemize}
+
+Servidor: un hardware de servidor donde se instalará la dashboard. Deberá poseer al menos 4 Gb de memoria RAM y capacidad de almacenamiento en disco rígido de al menos 30 Gb. 
+
+Sala de reuniones: espacio de trabajo para albergar al menos un grupo de 10 personas, deberá poseer pantalla y computadora con conexión a Internet.
+
+Teléfono móvil: un teléfono propio para hacer las pruebas de recepción de alarmas.
+
+\begin{table}
+
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|c|c|}
+%\begin{tabularx}{\linewidth}{@{}|c|X|X|X|X|X|c|@{}}
+\hline
+\cellcolor[HTML]{C0C0C0} & \cellcolor[HTML]{C0C0C0} & \multicolumn{5}{c|}{\cellcolor[HTML]{C0C0C0}Recursos requeridos (horas)} \\ \cline{3-7} 
+\multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\begin{tabular}[c]{@{}c@{}}Código\\ WBS\end{tabular}} & \multirow{-2}{*}{\cellcolor[HTML]{C0C0C0}\begin{tabular}[c]{@{}c@{}}Nombre \\ tarea\end{tabular}} & PC desktop & Laboratorio & Servidor & Sala reuniones & Teléfono móvil \\ \hline
+ 
+ 1.1&Definición de alcances & 9 & &  &  &  \\ \hline
+ 1.2&Selección de efectores &  &  &  & 3 &  \\ \hline
+ 1.3&Selección de usuarios  &  &  &  & 3 &\\ \hline
+ 1.4&Charlas con usuarios  &  &  &  & 6 &\\ \hline
+ 1.5&Estudio de dashboards & 10 &  &  &  &\\ \hline
+ 1.6&Escritura del plan de trabajo & 15 &  &  &  &\\ \hline
+ 2.1&Estudio de sensores  & 2 &  &  &  &\\ \hline
+ 2.2&Estudio y simulación filtro  &  & 6 &  &  &\\ \hline 
+ 2.3&Pruebas sensor filtro  &  & 15 &  &  &\\ \hline
+ 2.4&Investigación microcontroladores  & 4 &  &  &  &\\ \hline
+ 2.5&Investigación bibliotecas  & 4 &  &  &  &\\ \hline
+ 2.6&Desarrollo PCB  &  & 30 &  &  &\\ \hline
+ 2.7&Montaje PCB  &  & 8 &  &  &\\ \hline
+  3.1&Estudio bibliotecas WiFi & 15 &  &  &  &\\ \hline
+ 3.2&Gestión de certificados TLS  & 10 &  &  &  &\\ \hline
+ 3.3&Desarrollo comunicación  &  & 40 &  &  &\\ \hline
+ 3.4&Prueba comunicación  &  & 40 &  &  &\\ \hline
+ 3.5&Procesamiento variable  &  & 15 &  &  &\\ \hline
+ 3.6&Desarrollo página configuración &  & 35 &  &  &\\ \hline
+ 3.7&Prueba del conjunto  &  & 40 &  &  &\\ \hline
+ 3.8&Depuración de errores  &  & 40 &  &  &\\ \hline
+ 4.1&Instalación SO servidor  &  &  & 8 &  &\\ \hline
+ 4.2&Gestión de usuarios y permisos &  &  & 8 &  &\\ \hline
+ 5.1&Instalación dashboard  & 4 &  & 4 &  &\\ \hline 
+ 5.2&Aprendizaje uso dashboard  & 15 &  & 10 &  &\\ \hline
+ 5.3&Gestión usuarios dashboard  & 5 &  & 5 &  &\\ \hline
+ 5.4&Creación de paneles  & 20 &  & 20 &  &\\ \hline
+ 5.5&Prueba del conjunto  & 20 &  & 20 &  &\\ \hline
+  6.1&Creación canales Telegram  & 2 &  &  &  &\\ \hline
+ 6.2&Instalación app Telegram &  &  &  &  &2\\ \hline
+ 6.3&Creación reglas de alarmas & 10 &  & 10 &  &\\ \hline
+ 6.4&Creación reglas de estado &  10 &  & 10 &  &\\ \hline
+ 6.5&Prueba alarma temperatura & 15 &  &  &  &5\\ \hline
+ 6.6&Prueba alarma estado & 15 &  &  &  &5\\ \hline
+ 7.1&Verificación de requerimientos & 20  &  &5  &  &5\\ \hline
+ 8.1&Escritura de manuales & 16 &  &  &  &\\ \hline
+ 8.2&Escritura de memoria final & 40 &  &  &  &\\ \hline
+ 8.3&Elaboración de la presentación & 20 &  &  &  &\\ \hline
+ \end{tabular}%
+ }
+ \caption{\textit{Tabla de asignación de recursos}}
+ \label{recursos1}
+ \end{table}

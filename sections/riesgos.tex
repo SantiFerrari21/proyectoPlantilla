@@ -1,0 +1,86 @@
+\section{12. Gestión de riesgos}
+\label{sec:riesgos}
+Se describen los riesgos para el desarrollo del proyecto y su plan de mitigación.
+
+\textbf{a) Identificación de los riesgos y estimación de sus consecuencias:}
+ 
+Riesgo 1: El panel de control seleccionado no cubre las necesidades básicas. Si el sistema de visualización, no permite configurar la estructura jerárquica geográfica o no posee la capacidad de generar roles para distintos usuarios, se deberá optar por otra solución, lo que atrasará de manera grave el proyecto.
+\begin{itemize}
+\item Severidad (S): 8. El riesgo es alto, ya que no podremos cumplir con los requerimientos del cliente.
+\item Ocurrencia (O): 3. Si se verifican los requerimientos del cliente, la ocurrencia de este riesgo será baja. Para ello se debe invertir un tiempo razonable en el estudio de las soluciones disponibles.
+\end{itemize}   
+
+Riesgo 2: Error en el diseño del circuito electrónico. Implicaría indefectiblemente un error en el diseño del PCB.
+\begin{itemize}
+\item Severidad (S): 10. Muy severo ya produciría un mal funcionamiento. 
+\item Ocurrencia (O): 4. Se asigna esta ocurrencia ya que se harán las pruebas necesarias para depurar los errores.
+\end{itemize}
+
+Riesgo 3: Error en la elección del microcontrolador. Es grave si el error es inherente a la capacidad de RAM o la capacidad de la memoria de programa.
+\begin{itemize}
+\item Severidad (S): 3. Se da este valor al asegurar que posea todos los recursos físicos suficientes.
+\item Ocurrencia (O): 1. Se verificará que el dispositivo tenga suficientes recursos para el desarrollo de la aplicación.
+\end{itemize}
+
+Riesgo 4: Falla del firmware. Fallas reiteradas en el firmware del nodo, ocasionará un atraso en la ejecución del proyecto, por lo que se deberá tener muy en cuenta al hacer su desarrollo. 
+\begin{itemize}
+\item Severidad (S): 7. Un error de este tipo causará un funcionamiento inestable o no fiable del sistema.
+\item Ocurrencia (O): 7. Se considera este número debido a la dificultad en el desarrollo del firmware.
+\end{itemize}
+
+Riesgo 5: Atraso en la fabricación del PCB. Se prevé que la fabricación sea derivada a un proveedor externo al país. Si bien no se tiene conocimiento de atrasos en la entrega, al ser un artículo importado, requiere de una previsión por un eventual cambio en las reglas de importación.
+\begin{itemize}
+\item Severidad (S): 10. Se considera muy grave, ya que no podrá seguir adelante el proyecto
+\item Ocurrencia (O): 5. Se asigna este valor ya que la compra del producto depende de su importación.
+\end{itemize}
+
+Riesgo 6: Error en el diseño del PCB. Se confiará la fabricación del PCB a un proveedor que haga una evaluación primaria del diseño, esto permite descubrir errores groseros y solucionarlos antes de su fabricación.
+\begin{itemize}
+\item Severidad (S): 4. Puede ser grave si el error se propaga a todos los componentes del circuito (falla en las pistas de alimentación o errores groseros).
+\item Ocurrencia (O): 4. Se asigna esta probabilidad ya que es bastante común alguna falla en el diseño pero que resulta de sencilla resolución.
+\end{itemize}
+
+
+\textbf{b) Tabla de gestión de riesgos:}
+
+\begin{table}[htpb]
+\centering
+\begin{tabularx}{\linewidth}{@{}|X|c|c|c|c|c|c|@{}}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+Riesgo & S & O & RPN & S* & O* & RPN* \\ \hline
+1. El panel de control no cubre las necesidades básicas & 8  & 3  &  \cellcolor[HTML]{7ab560}24   &   - &  -  &    -  \\ \hline
+2. Error en el diseño del circuito electrónico &  10 &  4 & \cellcolor[HTML]{c94848} 40  &  9  &  1  &  \cellcolor[HTML]{7ab560}9 \\ \hline
+3. Error en la elección del microcontrolador &  3 & 1  &   \cellcolor[HTML]{7ab560}3  &  -  &  -  &    -  \\ \hline
+4. Falla del firmware & 7  & 7  &  \cellcolor[HTML]{c94848}49   &  9  & 3   & \cellcolor[HTML]{7ab560}27  \\ \hline
+5. Atraso en la fabricación del PCB &  10 &  5 &  \cellcolor[HTML]{c94848}50   &  4  & 4   & \cellcolor[HTML]{7ab560}16  \\ \hline
+6. Error en el diseño del PCB & 4  & 4  &   \cellcolor[HTML]{7ab560}16  &  -  &  - &   - \\ \hline
+\end{tabularx}%
+\end{table}
+
+Criterio adoptado: 
+Se tomarán medidas de mitigación en los riesgos cuyos números de RPN sean igual o mayores a 35
+
+Nota: los valores marcados con (*) en la tabla corresponden luego de haber aplicado la mitigación.
+
+\textbf{c) Plan de mitigación de los riesgos que originalmente excedían el RPN máximo establecido:}
+ 
+ Se trabajará en un plan de mitigación para los riesog 2, 4 y 5, ya que exceden el valor máximo admitido: 35.
+ 
+Riesgo 2: Se trabajará utilizado una placa de armado de prototipos. Luego se pasará a una placa PCB intermedia realizada en forma casera, con la ventaja de tener todos los componentes electrónicos soldados a la misma, para evitar así los falsos contactos tan comunes en las placas prototipo.
+\begin{itemize}
+\item Severidad (S): 9. No se modifica
+\item Probabilidad de ocurrencia (O): 1. Se espera que con la aplicación de este plan, el riesgo disminuya sustancialmente.
+\end{itemize}
+
+Riesgo 4: Se trabajará sobre la prueba y depuración de cada uno de los módulos de software que intervienen. Se pondrá el sistema a prueba durante un tiempo razonable hasta lograr la estabilidad. Durante este tiempo se harán los modificaciones necesarias.
+\begin{itemize}
+\item Severidad (S): 9. No se modifica
+\item Probabilidad de ocurrencia (O): 3. Haciendo depuraciones y pruebas exhaustivas, se espera una baja probabilidad de fallas.
+\end{itemize}
+
+Riesgo 5:  Se tratará de tener  proveedores locales sustitutos aunque represente un aumento en los costos finales. 
+\begin{itemize}
+\item Severidad (S): 4. Con proveedores locales, no hay proceso de importación. Sólo puede haber demoras en la fabricación.
+\item Probabilidad de ocurrencia (O): 4. Si no es posible la importación, se espera que los proveedores locales entreguen el trabajo a tiempo.
+\end{itemize}
